@@ -97,7 +97,7 @@ a:hover {
     text-shadow: none!important;
     text-align: center;
     white-space: nowrap;
-    animation: slide 5s linear infinite;
+    animation: slide 50s linear infinite;
 }
 
 #footer {
