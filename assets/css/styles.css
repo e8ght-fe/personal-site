@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background:#141318;
+    overflow: hidden;
+}
+
+#pfp {
+    border-radius: 50%;
+    width: 13.75vw;
+    height: 13.75vw;
+    position: absolute;
+    top: 20%;
+    filter: hue-rotate(0deg) drop-shadow(0 0 14px rgba(0, 0, 0, 0.849));
+    z-index: 3;
+    transition: filter 1.3s;
+    min-width: 190px;
+    min-height: 190px;
+    max-width: 250px;
+    max-height: 250px;
+}
+
+#pfp:hover {
+    filter: hue-rotate(240deg) drop-shadow(0 0 14px rgba(0, 0, 0, 0.849));
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* margin: 0; */
+    width: fit-content
+}
+
+h1 {
+    font-family: 'PT Serif', serif;
+    font-weight: normal;
+    color: #E4E4E4;
+    font-size: 9rem;
+    text-shadow: 0 0 26px rgb(0, 0, 0);
+    top: 5%;
+    position: absolute;
+    z-index: 2;
+    width: fit-content
+}
+
+span {
+    color: #3c4068;
+}
+
+#buttons {
+    position: relative;
+    top: 60vh;
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    padding: 10px;
+    filter: drop-shadow(0 0 12px rgb(0, 0, 0));
+    transition: .3s;
+    transition-property: filter, transform;
+	width: 2em;
+	height: 2em;
+	margin: 20px;
+}
+
+img {
+    width: 6.5vw;
+    height: 6.5vw;
+    min-width: 75px;
+    min-height: 75px;
+    max-width: 145px;
+    max-width: 145px;
+}
+
+a:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 22px rgb(0, 0, 0));
+}
+
+#footerText {
+    font-size: 4.5rem;
+    width: 100vw;
+    position: relative;
+    font-weight: bolder;
+    -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgba(226, 226, 226, 0.11);
+    text-shadow: none!important;
+    text-align: center;
+    white-space: nowrap;
+    animation: slide 5s linear infinite;
+}
+
+#footer {
+    bottom: -24px;
+    z-index: -1;
+    position: absolute;
+}
+@keyframes slide {
+    0%    { left: 0; }
+    100%  { left: -200%; }
+  }
+
+@media (max-width: 700px) {
+    h1 {
+        font-size: 4rem!important;
+    }
+    #footer {
+        display: none;
+    }
+    #buttons {
+        top: 55vh;
+    }
+    #pfp {
+        width: 10.75vw;
+        height: 10.75vw;
+        top: 15%;
+    }
+}
+
+@media (max-width: 428px) {
+    #buttons {
+        flex-direction: column;
+        top: 45vh;
+    }
+    h1 {
+      font-size: 5rem
+    }
+
+    #footerText {
+        width: 0;
+    }
+}
+
+@media (min-height: 1000px) {
+    img {
+        width: 16vw;
+        height: 16vw;
+        max-width: unset;
+        max-height: unset;
+    }
+    
+}
