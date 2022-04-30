@@ -43,10 +43,10 @@ If you'd like an image or GIF background wrap the entire site in a new div and m
 
 ### Changing the font
 To change the font go to the ``h1`` selector in the CSS and change the ``font-family`` rule to the font of your choice.
-Make sure you have your font imported, see how to import Google fonts here:
-https://stackoverflow.com/questions/14676613/how-to-import-google-web-font-in-css-file
-and see how to import TTFs/OTFs/etc. here:
-https://stackoverflow.com/questions/3245141/using-otf-fonts-on-web-browsers
+Make sure you have your font imported, see how to import Google fonts here:<br>
+https://stackoverflow.com/questions/14676613/how-to-import-google-web-font-in-css-file<br>
+and see how to import TTFs/OTFs/etc. here:<br>
+https://stackoverflow.com/questions/3245141/using-otf-fonts-on-web-browsers<br>
 
 ---
 
