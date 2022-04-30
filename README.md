@@ -1,8 +1,8 @@
 # Free Personal Site
-So I decided to release the source to my personal sites so it can be easily edited and so people can make their own personal sites for free. I don't intend to screw over any other personal site developers with this release so if you want to buy one check out:
-ogu.gg/ruub
-ogu.gg/capo
-With that being said feel free to use as you please. However I don't permit use of this source to sell your own service. If you are going to make a service using these themes then you **must** credit me and be completely transparent about what your service is.
+So I decided to release the source to my personal sites so it can be easily edited and so people can make their own personal sites for free. I don't intend to screw over any other personal site developers with this release so if you want to buy one check out:<br>
+https://ogu.gg/ruub<br>
+https://ogu.gg/capo<br>
+With that being said feel free to use as you please. However I don't permit use of this source to sell your own personal site development service. If you are going to make a service using these themes then you **must** credit me and be completely transparent about what your service is.
 
 I'd also like to preface this by saying this isn't my best work, I made this original template almost a year ago now and didn't put much thought into it. I **highly** recommend putting in the time to make your own template.
 
