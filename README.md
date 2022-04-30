@@ -15,7 +15,7 @@ Basic Knowledge in HTML and CSS are heavily recommended
 
 ### Changing the profile picture
 Copy your profile picture of choice into
-> --> assets
+> --> assets<br>
 > -----> imgs
 
 Find the ``img`` tag in the <ins>index.html</ins> file and replace *pfp.jpg* with the name of your image.
@@ -33,9 +33,9 @@ Just change the text lol
 
 ### Changing the background
 Go into 
-> --> assets
-> -----> css
-> ---------> style.css
+> --> assets<br>
+> -----> css<br>
+> ---------> style.css<br>
 
 go to the ``body`` selector and change the ``background`` rule to the hex color of your choice. 
 
