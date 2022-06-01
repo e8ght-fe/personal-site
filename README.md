@@ -6,6 +6,10 @@ With that being said feel free to use as you please. However I don't permit use 
 
 I'd also like to preface this by saying this isn't my best work, I made this original template almost a year ago now and didn't put much thought into it. I **highly** recommend putting in the time to make your own template.
 
+# Preview
+
+<img src="https://file.coffee/u/2O_opOMgxfh778.gif">
+
 
 # Prerequisites
 
